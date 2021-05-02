@@ -1,0 +1,13 @@
+--New folder add in new repoistory in Github
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Adishri-M/NUnit.git
+git push origin master
+
+---Folder add in existing repoistory
+
+git remote add origin git@github.com:Adishri-M/Stage-3-Handson.git
+git push origin master
+

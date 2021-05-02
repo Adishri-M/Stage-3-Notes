@@ -1,0 +1,48 @@
+Angular
+
+--install Node.js
+
+--After installation
+
+---Open the command prompt 
+
+--type
+
+---node -v
+---npm -v
+---npm install -g @angular/cli
+---ng v
+
+---the Screen is showing the ANGULAR CLI
+
+To unistall -----npm install -g @angular/cli
+
+
+open Visual Studio Code
+---Create new project
+
+go to cmd and type --> cd Folder address
+
+--> ng
+
+--->ng new Project name
+
+
+
+to create component ng g c name
+
+
+--->enforce stricker - no
+--->routing - no
+--->then press enter - the packages are installed 
+
+--->ng serve build the application
+
+--cd cus*(project name)
+
+--ng serve
+
+--ng serve -o it automatically open in chrome
+
+
+main-->app.module-->app.componentsn

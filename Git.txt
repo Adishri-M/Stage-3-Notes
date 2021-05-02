@@ -1,0 +1,19 @@
+remote add origin https://github.com/annie-code/GitDemo
+
+git remote set-url origin https://github.com/annie-code/Git_Demo2
+
+git clone https://github.com/annie-code/Git_Demo2
+
+
+---Branch
+
+ git checkout -b b1904
+
+ git branch branch1904
+
+ git add *
+
+ git commit -m 'added new branch'
+
+ git push origin b1904
+

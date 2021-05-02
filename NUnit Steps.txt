@@ -1,0 +1,28 @@
+1.open visual studio
+2.create one project-console application .net framework
+3.There in program.cs , create one class named.. calculator and function Add(int a, int b) in calculator class
+4.Then execute that code
+5.create one class library project for that solution
+6.right click on that class library project and go to manage nuget packet manager
+7.there install 3 packages,...1.NUnit,      2.Nunit3TestAdapter,3.NUnitTestAdapter
+8.Then, expand reference and check whether NUnit framework is added or not
+9.Then right click reference and add..exe file of the already executed class
+10.Then create new program named TestCalculator.cs
+11.create one method AddMethodTest()
+12.There ,add TestFixture attribute above class and add Test attribute above Method AddMethodTest
+
+￼
+
+13.Build the code
+14.Go to Test Tab on top
+15.Select Test Explorer
+16.Then, expand the test file there
+Upto last and give run
+17.right side column, the output for testing will.be shown
+18.Then , add SetUp attribute for the method named SetUp
+(SetUp method will execute before each test)
+￼
+19.Build the program,
+20.go to test tab and check the results
+21.if in setup actual expected same and crt means, it doesn't show in test detail summary
+22.If wrong means, show in test detail summary..
